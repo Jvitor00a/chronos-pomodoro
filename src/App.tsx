@@ -7,7 +7,7 @@ export function App() {
 
   return (
     <>
-      <Heading />
+      <Heading>Olá Mundo</Heading>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, a sunt
         aliquid eius esse facere vitae laudantium similique praesentium alias,
