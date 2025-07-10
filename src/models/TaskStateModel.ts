@@ -1,10 +1,10 @@
-// import { TaskModel } from "./TaskModel";
+import type { TaskModel } from "./TaskModel";
 
 export type TaskStateModel = {
-  // tasks: TaskModel[];
+  tasks: TaskModel[];
   secondsRemaing: number;
   formatedSecondsRemaning: string;
-  // activedTask: TaskModel | null;
+  activedTask: TaskModel | null;
   currentCycle: number;
   config: {
     workTime: number;
